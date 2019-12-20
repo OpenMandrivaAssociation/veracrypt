@@ -35,6 +35,8 @@ Free disk encryption software based on TrueCrypt.
 %autopatch -p1
 
 %build
+export CC=gcc
+export CXX=g++
 pushd src
 %make_build TC_EXTRA_LFLAGS+="%{ldflags} -ldl" \
             TC_EXTRA_CXXFLAGS="%{optflags}" \
