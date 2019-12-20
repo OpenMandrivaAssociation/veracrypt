@@ -14,9 +14,8 @@ BuildRequires:	makeself
 BuildRequires:	nasm
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	imagemagick
-%ifarch %{ix86} x86_64
 BuildRequires:	yasm
-%endif
+
 
 %description
 Free disk encryption software based on TrueCrypt.
