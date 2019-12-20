@@ -8,7 +8,7 @@ Release:	1
 License:	Microsoft Public License
 Group:		File tools
 Url:		https://veracrypt.codeplex.com
-Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
+Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt-VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
 BuildRequires:	wxgtk-devel
 BuildRequires:	makeself
 BuildRequires:	nasm
