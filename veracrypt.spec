@@ -9,8 +9,6 @@ License:	Microsoft Public License
 Group:		File tools
 Url:		https://veracrypt.codeplex.com
 Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
-Patch2:		veracrypt-1.0f-2-desktop.patch
-Patch3:		VeraCrypt-VeraCrypt_1.19-fix-desktop-files.patch
 BuildRequires:	wxgtk-devel
 BuildRequires:	makeself
 BuildRequires:	nasm
