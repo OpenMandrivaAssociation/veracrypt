@@ -1,3 +1,7 @@
+%ifarch %{ix86} 
+%define _disable_lto 1
+%endif
+
 # comment out when not a hotfix release
 %define hotfix	Update2
 
