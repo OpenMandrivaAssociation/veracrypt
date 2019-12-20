@@ -1,4 +1,4 @@
-%ifarch %{ix86} 
+%ifarch %{ix86} %{arm} %{armx}
 %define _disable_lto 1
 %endif
 
