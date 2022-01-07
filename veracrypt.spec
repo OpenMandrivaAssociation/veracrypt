@@ -24,12 +24,13 @@ BuildRequires:	yasm
 %description
 Free disk encryption software based on TrueCrypt.
 
-%files -f %{name}.lang
+%files
 %doc %{_docdir}/%{name}/
 %{_bindir}/%{name}
 %{_sbindir}/mount.veracrypt
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/mime/packages/veracrypt.xml
+%{_datadir}veracrypt/languages/Language.*.xml
 %{_datadir}/pixmaps/*
 %{_iconsdir}/hicolor/*/apps/*
 
@@ -67,5 +68,3 @@ for png in 128x128 48x48 16x16; do
 done
 
 rm -rf %{buildroot}%{_bindir}/%{name}-uninstall.sh
-
-%find_lang %{name}
