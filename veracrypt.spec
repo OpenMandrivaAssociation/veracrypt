@@ -3,11 +3,11 @@
 %endif
 
 # comment out when not a hotfix release
-%define hotfix	Update2
+#define hotfix	Update2
 
 Summary:	Disk encryption software
 Name:		veracrypt
-Version:	1.24
+Version:	1.25.4
 Release:	1
 License:	Microsoft Public License
 Group:		File tools
