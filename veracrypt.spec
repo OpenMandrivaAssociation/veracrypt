@@ -8,7 +8,7 @@
 Summary:	Disk encryption software
 Name:		veracrypt
 Version:	1.25.9
-Release:	1
+Release:	2
 License:	Microsoft Public License
 Group:		File tools
 Url:		https://veracrypt.codeplex.com
