@@ -17,6 +17,7 @@ BuildRequires:	wxgtku3.0-devel
 BuildRequires:	makeself
 BuildRequires:	nasm
 BuildRequires:	pkgconfig(fuse)
+BuildRequires:          pkgconfig(libpcsclite)
 BuildRequires:	imagemagick
 BuildRequires:	yasm
 
