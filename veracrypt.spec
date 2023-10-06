@@ -28,7 +28,7 @@ Free disk encryption software based on TrueCrypt.
 %files
 %doc %{_docdir}/%{name}/
 %{_bindir}/%{name}
-#{_sbindir}/mount.veracrypt
+%{_prefix}/sbin/mount.veracrypt
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/mime/packages/veracrypt.xml
 %{_datadir}/veracrypt/languages/Language.*.xml
