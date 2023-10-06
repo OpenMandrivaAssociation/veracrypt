@@ -7,8 +7,8 @@
 
 Summary:	Disk encryption software
 Name:		veracrypt
-Version:	1.25.9
-Release:	2
+Version:	1.26.7
+Release:	1
 License:	Microsoft Public License
 Group:		File tools
 Url:		https://veracrypt.codeplex.com
@@ -17,6 +17,7 @@ BuildRequires:	wxgtku3.0-devel
 BuildRequires:	makeself
 BuildRequires:	nasm
 BuildRequires:	pkgconfig(fuse)
+BuildRequires:          pkgconfig(libpcsclite)
 BuildRequires:	imagemagick
 BuildRequires:	yasm
 
@@ -27,7 +28,7 @@ Free disk encryption software based on TrueCrypt.
 %files
 %doc %{_docdir}/%{name}/
 %{_bindir}/%{name}
-%{_sbindir}/mount.veracrypt
+%{_prefix}/sbin/mount.veracrypt
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/mime/packages/veracrypt.xml
 %{_datadir}/veracrypt/languages/Language.*.xml
