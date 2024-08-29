@@ -7,19 +7,19 @@
 
 Summary:	Disk encryption software
 Name:		veracrypt
-Version:	1.26.7
+Version:	1.26.14
 Release:	1
 License:	Microsoft Public License
 Group:		File tools
 Url:		https://veracrypt.codeplex.com
 Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt-VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
-BuildRequires:	wxgtku3.0-devel
-BuildRequires:	makeself
-BuildRequires:	nasm
-BuildRequires:	pkgconfig(fuse)
-BuildRequires:          pkgconfig(libpcsclite)
-BuildRequires:	imagemagick
-BuildRequires:	yasm
+BuildRequires: wxwidgets-devel
+BuildRequires: makeself
+BuildRequires: nasm
+BuildRequires: pkgconfig(fuse)
+BuildRequires: pkgconfig(libpcsclite)
+BuildRequires: imagemagick
+BuildRequires: yasm
 
 
 %description
