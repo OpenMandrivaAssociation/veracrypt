@@ -7,7 +7,7 @@
 
 Summary:	Disk encryption software
 Name:		veracrypt
-Version:	1.26.19
+Version:	1.26.20
 Release:	1
 License:	Microsoft Public License
 Group:		File tools
