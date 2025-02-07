@@ -19,7 +19,9 @@ BuildRequires: nasm
 BuildRequires: pkgconfig(fuse)
 BuildRequires: pkgconfig(libpcsclite)
 BuildRequires: imagemagick
+%ifnarch aarch64
 BuildRequires: yasm
+%endif
 
 
 %description
