@@ -9,7 +9,7 @@ Summary:	Disk encryption software
 Name:		veracrypt
 Version:	1.26.20
 Release:	1
-License:	Microsoft Public License
+License:	Apache 2.0 and TrueCrypt 3.0
 Group:		File tools
 Url:		https://www.veracrypt.fr
 Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt-VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
