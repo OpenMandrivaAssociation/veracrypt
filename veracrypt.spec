@@ -11,7 +11,7 @@ Version:	1.26.20
 Release:	1
 License:	Microsoft Public License
 Group:		File tools
-Url:		https://veracrypt.codeplex.com
+Url:		https://www.veracrypt.fr
 Source0:	https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt-VeraCrypt_%{version}%{?hotfix:-%hotfix}.tar.gz
 BuildRequires: wxwidgets-devel
 BuildRequires: makeself
