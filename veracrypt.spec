@@ -7,7 +7,7 @@
 
 Summary:	Disk encryption software
 Name:		veracrypt
-Version:	1.26.20
+Version:	1.26.24
 Release:	1
 License:	Apache 2.0 and TrueCrypt 3.0
 Group:		File tools
